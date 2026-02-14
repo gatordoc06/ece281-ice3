@@ -22,3 +22,10 @@ Then it **elaborates** the entity defined by `$TB_ENTITY`
 Finally, the workflow **runs** the simulation. If successful then it will quietly exit with a `0` code.
 If any of the `assert` statements fail then GHDL will cease the simulation and exit with non-zero code; this will also cause the workflow to fail.
 Assert statements of other severity levels will be reported, but not fail the workflow.
+
+[All 1s, all 0s, only carry in, random combination](Screenshot 2026-02-13 192117.png)
+
+## Documentation
+
+C3C Noah Marino helped me relize that my basys 3 file did not uncomment every switch and every led to properly program
+the board
